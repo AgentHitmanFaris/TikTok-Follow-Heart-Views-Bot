@@ -1,4 +1,5 @@
 
+import os
 from selenium import webdriver
 from selenium.webdriver.support.ui import Select
 import pyfiglet
@@ -158,7 +159,8 @@ chrome_options = webdriver.ChromeOptions()
 #chrome_options.add_argument('--headless')
 chrome_options.add_argument('--no-sandbox')
 chrome_options.add_argument('--disable-dev-shm-usage')
-driver = webdriver.Chrome('C:\Program Files\BraveSoftware\Brave-Browser-Beta\Application\chromedriver.exe',chrome_options=chrome_options) #Change it
+driver_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'chromedriver.exe')
+driver = webdriver.Chrome(driver_path, chrome_options=chrome_options)
 
 driver.get("https://zefoy.com/")
 

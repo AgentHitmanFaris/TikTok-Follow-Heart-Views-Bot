@@ -12,8 +12,8 @@ timestamp = datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%d %H:%
 operative_id = random.choice(operatives)
 branch = "red-team/log-update"
 commit = "Pending"
-action_summary = "Updated Red Team operational log"
-classification = "[INFO: SYSTEM STABLE]"
+action_summary = "Hardened update_log.py classification and selection logic"
+classification = "[LOGIC: ACTIVE MODIFICATION]"
 signature = secrets.token_hex(4).upper()
 
 row = f"| {timestamp} | {operative_id} | {branch} | {commit} | {action_summary} | {classification} | {signature} |"

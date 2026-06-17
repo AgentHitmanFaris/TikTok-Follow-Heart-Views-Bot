@@ -155,7 +155,7 @@ def loop6():
         sleep(1000)
         driver.refresh()
         print("Reload")
-        loop5()
+        # loop5 removed to fix logic error
 
 print("Author: https://github.com/NoNameoN-A")
 
@@ -186,6 +186,6 @@ elif bot == 4:
 elif bot == 5:
     loop5()
 elif bot == 6:
-    loop5() # Note: loop6 calls loop5, so the loop6 function itself is just a wrapper now.
+    loop6()
 else:
     print("You can insert just 1, 2, 3, 4, 5 or 6")

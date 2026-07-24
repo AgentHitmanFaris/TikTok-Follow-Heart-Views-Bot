@@ -16,4 +16,7 @@ jobs:
       - name: Auto-merge PR
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: gh pr merge ${{ github.event.pull_request.number }} --auto --merge
+        run: |
+          for i in 1 2 3 4 5; do
+            gh pr merge ${{ github.event.pull_request.number }} --auto --merge && break || sleep 15
+          done

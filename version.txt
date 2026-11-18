@@ -7,5 +7,5 @@ v = 1.0.3
 links: https://fuckingfast.net/l4m4rpel13v6
 
 ModbusSlave_Tool
-v = 1.0.1
-links: https://fuckingfast.net/l4m4rpel13v6
+v = 1.0.0
+links: https://fuckingfast.net/fe0xxw75ye75

@@ -4,8 +4,8 @@ links: https://fuckingfast.net/l4m4rpel13v6
 
 ModbusPoll_Tool
 v = 1.0.3
-links: https://fuckingfast.net/l4m4rpel13v6
+links: https://fuckingfast.net/2piwhx0ogtxb
 
 ModbusSlave_Tool
 v = 1.0.0
-links: https://fuckingfast.net/fe0xxw75ye75
+links: https://fuckingfast.net/h8wliod8jasr
